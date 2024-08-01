@@ -56,9 +56,11 @@ $no = 0;
   });
 
   function handleLogoutClick(event) {
-    event.preventDefault();
-    confirm('Are you sure you want to log out?')
-    window.location.href = 'logout';
+    event.preventDefault(); // Prevent the default anchor action
+    if (confirm('Are you sure you want to log out?')) {
+        // If the user confirms, proceed with logout
+        window.location.href = 'logout';
+    }
   }
 </script>
 <body>
