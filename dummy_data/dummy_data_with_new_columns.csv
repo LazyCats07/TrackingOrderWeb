@@ -1,0 +1,9 @@
+no,id_cust,nama_cust,gender,alamat,ktp,kartu_keluarga,jenis_pinjaman,status_order,created
+1,0001-1250,Ahmad Fauzan,Male,"Jl. Kenanga No. 5, Kel. Kebayoran Lama, Kec. Kebayoran Lama, Jakarta Selatan, 12240",(Pilih file),(Pilih file),NMC,New Order,2024-07-15 10:00:00
+2,0001-1251,Fitri Handayani,Female,"Jl. Melati No. 7, Kel. Palmerah, Kec. Palmerah, Jakarta Barat, 11480",(Pilih file),(Pilih file),Motor Bekas,Order Pending,2024-07-15 10:05:00
+3,0001-1252,Dedi Setiawan,Male,"Jl. Anggrek No. 3, Kel. Setiabudi, Kec. Setiabudi, Jakarta Selatan, 12910",(Pilih file),(Pilih file),Multiproduk,PO Pending,2024-07-15 10:10:00
+4,0001-1253,Lestari Putri,Female,"Jl. Mawar No. 12, Kel. Tebet, Kec. Tebet, Jakarta Selatan, 12820",(Pilih file),(Pilih file),Microfinance,Kontrak,2024-07-15 10:15:00
+5,0001-1254,Budi Raharjo,Male,"Jl. Dahlia No. 15, Kel. Cipete, Kec. Cipete, Jakarta Selatan, 12410",(Pilih file),(Pilih file),Ibadah Haji,Dishbursement,2024-07-15 10:20:00
+6,0001-1255,Sari Melinda,Female,"Jl. Flamboyan No. 8, Kel. Menteng, Kec. Menteng, Jakarta Pusat, 10310",(Pilih file),(Pilih file),Ibadah Umroh,Accepted,2024-07-15 10:25:00
+7,0001-1256,Rian Pratama,Male,"Jl. Tulip No. 2, Kel. Pulo Gadung, Kec. Pulo Gadung, Jakarta Timur, 13260",(Pilih file),(Pilih file),NMC,Rejected,2024-07-15 10:30:00
+8,0001-1257,Indah Wulandari,Female,"Jl. Kemuning No. 20, Kel. Cempaka Putih, Kec. Cempaka Putih, Jakarta Pusat, 10510",(Pilih file),(Pilih file),Motor Bekas,New Order,2024-07-15 10:35:00
