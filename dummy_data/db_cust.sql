@@ -45,12 +45,12 @@ CREATE TABLE `data_order` (
 --
 
 INSERT INTO `data_order` (`no`, `id_cust`, `nama_cust`, `gender`, `alamat`, `ktp`, `kartu_keluarga`, `jenis_pinjaman`, `status_order`, `created`) VALUES
-(58, '0001-1250', 'Ahmad Fauzan', 'Laki-Laki', 'Jl. Kenanga No. 5, Kel. Kebayoran Lama, Kec. Kebayoran Lama, Jakarta Selatan, 12240	(Pilih ', '0001-1250.jpeg', '0001-1250.jpeg', 'NMC', 'New Order', '2024-07-15 08:15:19'),
-(59, '0001-1251', 'Fitri Handayani	', 'Perempuan', 'Jl. Melati No. 7, Kel. Palmerah, Kec. Palmerah, Jakarta Barat, 11480', '0001-1251.jpeg', '0001-1251.jpeg', 'Motor Bekas', 'Kontrak', '2024-07-18 08:28:43'),
-(60, '0001-1252', 'Dedi Setiawan', 'Laki-Laki', 'Jl. Anggrek No. 3, Kel. Setiabudi, Kec. Setiabudi, Jakarta Selatan, 12910', '0001-1252.jpg', '0001-1252.jpg', 'Multiproduk', 'PO Pending', '2024-07-15 08:16:40'),
-(61, '0001-1253', 'Lestari Putri', 'Perempuan', 'Jl. Mawar No. 12, Kel. Tebet, Kec. Tebet, Jakarta Selatan, 12820', '0001-1253.jpeg', '0001-1253.jpeg', 'Microfinance', 'Kontrak', '2024-07-15 08:17:10'),
-(62, '0001-1254', 'Budi Raharjo', 'Laki-Laki', 'Jl. Dahlia No. 15, Kel. Cipete, Kec. Cipete, Jakarta Selatan, 12410', '0001-1254.jpg', '0001-1254.jpg', 'Ibadah Haji', 'Dishbursement', '2024-07-15 08:17:43'),
-(64, '0001-1256', 'Rian Pratama', 'Laki-Laki', 'Jl. Tulip No. 2, Kel. Pulo Gadung, Kec. Pulo Gadung, Jakarta Timur, 13260', '0001-1256.jpeg', '0001-1256.jpeg', 'Ibadah Umroh', 'Accepted', '2024-07-18 08:29:26');
+(1, '0001-1250', 'Ahmad Fauzan', 'Laki-Laki', 'Jl. Kenanga No. 5, Kel. Kebayoran Lama, Kec. Kebayoran Lama, Jakarta Selatan, 12240	(Pilih ', '0001-1250.jpeg', '0001-1250.jpeg', 'NMC', 'New Order', '2024-07-15 08:15:19'),
+(2, '0001-1251', 'Fitri Handayani	', 'Perempuan', 'Jl. Melati No. 7, Kel. Palmerah, Kec. Palmerah, Jakarta Barat, 11480', '0001-1251.jpeg', '0001-1251.jpeg', 'Motor Bekas', 'Kontrak', '2024-07-18 08:28:43'),
+(3, '0001-1252', 'Dedi Setiawan', 'Laki-Laki', 'Jl. Anggrek No. 3, Kel. Setiabudi, Kec. Setiabudi, Jakarta Selatan, 12910', '0001-1252.jpg', '0001-1252.jpg', 'Multiproduk', 'PO Pending', '2024-07-15 08:16:40'),
+(4, '0001-1253', 'Lestari Putri', 'Perempuan', 'Jl. Mawar No. 12, Kel. Tebet, Kec. Tebet, Jakarta Selatan, 12820', '0001-1253.jpeg', '0001-1253.jpeg', 'Microfinance', 'Kontrak', '2024-07-15 08:17:10'),
+(5, '0001-1254', 'Budi Raharjo', 'Laki-Laki', 'Jl. Dahlia No. 15, Kel. Cipete, Kec. Cipete, Jakarta Selatan, 12410', '0001-1254.jpg', '0001-1254.jpg', 'Ibadah Haji', 'Dishbursement', '2024-07-15 08:17:43'),
+(6, '0001-1256', 'Rian Pratama', 'Laki-Laki', 'Jl. Tulip No. 2, Kel. Pulo Gadung, Kec. Pulo Gadung, Jakarta Timur, 13260', '0001-1256.jpeg', '0001-1256.jpeg', 'Ibadah Umroh', 'Accepted', '2024-07-18 08:29:26');
 
 --
 -- Indexes for dumped tables

@@ -15,12 +15,12 @@
             $status_order = $data['status_order'];
 
         // --Menyimpan data di Directory yang kita inginkan--
-        $dir_ktp = "../img/data_image/ktp/";
+        $dir_ktp = "img/data_image/ktp/";
         $tmpFile_ktp = $files['ktp']['tmp_name'];
         move_uploaded_file($tmpFile_ktp, $dir_ktp.$ktp);
 
         // --Menyimpan data di Directory yang kita inginkan--
-        $dir_kk = "../img/data_image/kk/";
+        $dir_kk = "img/data_image/kk/";
         $tmpFile_kk = $files['kartu_keluarga']['tmp_name'];
         move_uploaded_file($tmpFile_kk, $dir_kk.$kk);
 

@@ -7,7 +7,7 @@ if(isset($_POST['aksi'])){
         $berhasil = add_data($_POST, $_FILES);
         if($berhasil){
             $_SESSION['eksekusi'] = "Data Berhasil Ditambahkan";
-            header("location: admin.php");
+            header("location: masterAdmin");
         }else{
             echo $berhasil;
         }
@@ -17,7 +17,7 @@ if(isset($_POST['aksi'])){
         $berhasil = change_data($_POST, $_FILES);
         if($berhasil){
             $_SESSION['edit'] = "Data Berhasil Diedit";
-            header("location: admin.php");
+            header("location: masterAdmin");
         }else{
             echo $berhasil;
         }
@@ -30,7 +30,7 @@ if(isset($_GET['hapus'])){
         $_SESSION['hapus'] = "Data Berhasil Dihapus";
         // echo $_SESSION['hapus'];
         // die();
-        header("location: admin.php");
+        header("location: masterAdmin");
     }else{
         echo $berhasil;
     }
