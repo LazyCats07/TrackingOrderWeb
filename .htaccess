@@ -1,25 +1,11 @@
-# RewriteEngine On
-# RewriteCond %{REQUEST_FILENAME} !-f
-# RewriteCond %{REQUEST_FILENAME} !-d
-
-# # Rule untuk menghilangkan .php dari addData.php dengan query string
-# RewriteRule %addData$ addData.php [L,QSA]
-
-# # Rule untuk menghilangkan .php dari addData.php tanpa query string
-# RewriteRule %addData$ addData.php [L]
-
-# # Rule untuk menghilangkan .php dari index.php
-# RewriteRule %index$ index.php [L]
-
-# # Rule untuk menghilangkan .php dari track.php
-# RewriteRule %track track.php [L]
-
 RewriteEngine on
+
+# Rewrite to PHP if the requested file exists with a .php extension
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$ $1.php
+RewriteRule ^(.*)$ $1.php [L]
 
-RewriteEngine on
+# Rewrite to HTML if the requested file exists with a .html extension
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html
+RewriteRule ^(.*)$ $1.html [L]

@@ -6,6 +6,6 @@
     <title>Redirecting...</title>
 </head>
 <body>
-    <p>Jika Anda tidak segera diarahkan, silakan <a href="https://www.fifgroup.co.id/">klik di sini</a>.</p>
+    <p>Jika Anda tidak segera diarahkan, silakan <a href="https://www.fifgroup.co.id/"> klik di sini</a>.</p>
 </body>
 </html>
