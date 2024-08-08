@@ -38,10 +38,6 @@ if (isset($_POST['tombolsearch'])) {
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/e56a8fc2bc.js" crossorigin="anonymous"></script>
     <!-- Bootsrap FAQ Style -->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/faqs/faq-3/assets/css/faq-3.css">
-    <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
     <style>
         .title {
             color: #2676ae;
@@ -158,7 +154,7 @@ if (isset($_POST['tombolsearch'])) {
     <?php endif; ?>
 
 <!-- FAQ -->
-<section class="bsb-faq-3 py-3 py-md-5 py-xl-8">
+<section class="bsb-faq-3 py-3 py-md-5 py-xl-8" style="margin-top: 150px;">
   <div class="container">
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
@@ -269,7 +265,7 @@ if (isset($_POST['tombolsearch'])) {
             <!-- Links -->
             <!-- <h6 class="text-uppercase fw-bold mb-4">Contact</h6> -->
             <p style="color:#4a4a4a; font-size:12px;">
-                <i class="fas fa-home me-3"></i> 
+                <i class="fas fa-home me-3" ></i> 
                 Menara FIF Jl. T.B. Simatupang Kav.15 Cilandak. Jakarta Selatan 12440 
             </p>
             <p style="color:#4a4a4a;">
