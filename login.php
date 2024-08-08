@@ -82,16 +82,30 @@ if (isset($_POST['login'])) {
         .glyphicon-eye-open, .glyphicon-eye-close {
             cursor: pointer;
         }
+        footer {
+            background-color: #4a4a4a;
+            color: white;
+            padding: 20px 0;
+            border-top: 1px solid #ccc;
+        }
+        .footer-text {
+            font-size: 12px;
+        }
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
 <div class="container my-4">    
     <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
-        <div class="panel panel-info" >
+        <div class="panel panel-info">
             <div class="panel-heading">
                 <div class="panel-title">Login dan Masuk Ke Sistem</div>
             </div>      
-            <div style="padding-top:30px" class="panel-body" >
+            <div style="padding-top:30px" class="panel-body">
                 <?php if($err){ ?>
                     <div id="login-alert" class="alert alert-danger col-sm-12">
                         <ul><?php echo $err ?></ul>
@@ -126,6 +140,7 @@ if (isset($_POST['login'])) {
         </div>  
     </div>
 </div>
+
 <script>
     document.getElementById('toggle-password').addEventListener('click', function () {
         var passwordField = document.getElementById('login-password');
