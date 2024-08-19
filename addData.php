@@ -26,6 +26,7 @@
         $created = $result['created'];
         $no = $result['no'];
     }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,7 +43,26 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body></body>
+<body>
+<!-- Bagian Pemberitahuan -->
+<?php if(isset($_SESSION['error'])): ?>
+    <div style="color: red; font-weight: bold;">
+        <?php
+            echo $_SESSION['error'];
+            unset($_SESSION['error']); // Hapus session setelah ditampilkan
+        ?>
+    </div>
+<?php endif; ?>
+
+<?php if(isset($_SESSION['success'])): ?>
+    <div style="color: green; font-weight: bold;">
+        <?php
+            echo $_SESSION['success'];
+            unset($_SESSION['success']); // Hapus session setelah ditampilkan
+        ?>
+    </div>
+<?php endif; ?>
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="addData">

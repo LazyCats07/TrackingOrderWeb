@@ -114,7 +114,6 @@ $no = 0;
     </script>
     <?php endif; ?>
     <?php session_unset(); ?>
-
     <!-- Table -->
     <div class="table-responsive">
         <table id="dt" class="table align-middle table-hover border cell-border">
@@ -179,7 +178,6 @@ $no = 0;
     </ul>
 </footer>  
 <!-- Copyright -->
-
 
 <!-- Scripts -->
 <script>

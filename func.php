@@ -1,18 +1,28 @@
 <?php
     include 'connect.php';
-        function add_data($data, $files){
-            $id_cust = $data['id_cust'];
-            $nama_cust = $data['nama_cust'];
-            $gender = $data['gender'];
-            $alamat = $data['alamat'];
-            echo $files['ktp']['name']."<br>";
-            $split = explode('.', $files['ktp']['name']);
-            // mengambil index terakhir atau format data ".jpg"
-            $ekstensi = $split[count($split)-1];
-            $ktp = $id_cust.'.'.$ekstensi;
-            $kk = $id_cust.'.'.$ekstensi;
-            $jenis_pinjaman = $data['jenis_pinjaman'];
-            $status_order = $data['status_order'];
+    function add_data($data, $files){
+        $id_cust = $data['id_cust'];
+        $nama_cust = $data['nama_cust'];
+        $gender = $data['gender'];
+        $alamat = $data['alamat'];
+        echo $files['ktp']['name']."<br>";
+        $split = explode('.', $files['ktp']['name']);
+        // mengambil index terakhir atau format data ".jpg"
+        $ekstensi = $split[count($split)-1];
+        $ktp = $id_cust.'.'.$ekstensi;
+        $kk = $id_cust.'.'.$ekstensi;
+        $jenis_pinjaman = $data['jenis_pinjaman'];
+        $status_order = $data['status_order'];
+
+        // Cek apakah id_cust sudah ada di database
+        $queryCheck = "SELECT * FROM data_order WHERE id_cust = '$id_cust'";
+        $sqlCheck = mysqli_query($GLOBALS['conn'], $queryCheck);
+
+        // Jika data ditemukan, maka hentikan proses penambahan dan berikan pesan kesalahan
+        if(mysqli_num_rows($sqlCheck) > 0) {
+            echo "Data dengan ID Customer tersebut sudah ada!";
+            return false;
+        }
 
         // --Menyimpan data di Directory yang kita inginkan--
         $dir_ktp = "img/data_image/ktp/";
